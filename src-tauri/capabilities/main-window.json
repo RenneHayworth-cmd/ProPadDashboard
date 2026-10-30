@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-window",
+  "description": "仅允许本地看板接收状态、拖动窗口及修改指定设置。",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:allow-listen", "core:event:allow-unlisten",
+    "core:window:allow-start-dragging",
+    "allow-get-dashboard-state", "allow-select-controller", "allow-set-autostart",
+    "allow-set-reduced-motion", "allow-set-panel-mode", "allow-hide-panel"
+  ]
+}

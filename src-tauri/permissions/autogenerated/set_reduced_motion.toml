@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-set-reduced-motion"
+description = "Enables the set_reduced_motion command without any pre-configured scope."
+commands.allow = ["set_reduced_motion"]
+
+[[permission]]
+identifier = "deny-set-reduced-motion"
+description = "Denies the set_reduced_motion command without any pre-configured scope."
+commands.deny = ["set_reduced_motion"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-select-controller"
+description = "Enables the select_controller command without any pre-configured scope."
+commands.allow = ["select_controller"]
+
+[[permission]]
+identifier = "deny-select-controller"
+description = "Denies the select_controller command without any pre-configured scope."
+commands.deny = ["select_controller"]
